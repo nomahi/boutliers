@@ -20,7 +20,7 @@ Bootstrap distributions of the influence statistics are calculated by simple cod
 ``` r
 # Or the the development version from GitHub:
 # install.packages("devtools")
-devtools::install_github("noma/metaoutliers")
+devtools::install_github("nomahi/metaoutliers")
 ```
 
-Downloads: [please see the release page](https://github.com/noma/metaoutliers/releases)
+Downloads: [please see the release page](https://github.com/nomahi/metaoutliers/releases)
