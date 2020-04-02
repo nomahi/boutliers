@@ -31,7 +31,7 @@ The default is \code{FALSE}.}
 A \code{data.frame} of study data.
 \itemize{
 \item \code{y}: A numeric vector of the effect size estimates.
-\item \code{se}: A numeric vector of the within studies variance estimates.
+\item \code{v}: A numeric vector of the within studies variance estimates.
 }
 }
 \description{
