@@ -1,0 +1,13 @@
+Package: metaoutliers
+Type: Package
+Title: Outlier detection and influence diagnostics for meta-analysis
+Version: 1.0.0
+Date: 2020-04-02
+Author: Hisashi Noma
+Maintainer: Hisashi Noma <noma@ism.ac.jp>
+Description: A R package for implementing outlier detection and influence diagnostics for meta-analysis. Bootstrap distributions of the influence statistics are calculated, and the thresholds to determine outliers are clearly provided.
+Imports:
+  metafor (>= 2.0-0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
