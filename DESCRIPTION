@@ -6,8 +6,8 @@ Date: 2020-04-02
 Author: Hisashi Noma
 Maintainer: Hisashi Noma <noma@ism.ac.jp>
 Description: A R package for implementing outlier detection and influence diagnostics for meta-analysis. Bootstrap distributions of the influence statistics are calculated, and the thresholds to determine outliers are clearly provided.
-Imports:
-  metafor (>= 2.0-0)
+Depends:
+  metafor
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
