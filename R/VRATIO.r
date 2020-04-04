@@ -8,8 +8,6 @@
 
 VRATIO <- function(y, v, B=2000, alpha=0.05){
 
-	require(metafor)
-
 	reml1 <- rma(yi=y,vi=v)
 	
 	mu0 <- as.numeric(reml1$beta)
