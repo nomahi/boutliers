@@ -1,30 +1,3 @@
-#' Converting means and standard deviations
-#'
-#' Converting estimated means and standard deviations in
-#' experimental and contorol groups to the effect size
-#' estimates and the within studies standard errors vector
-#'
-#' @name convert_mean
-#' @rdname convert_mean
-#' @param n1 A vector of number of observations in experimental group
-#' @param m1 A vector of estimated mean in experimental group
-#' @param s1 A vector of standard deviation in experimental group
-#' @param n2 A vector of number of observations in experimental group
-#' @param m2 A vector of estimated mean in experimental group
-#' @param s2 A vector of standard deviation in experimental group
-#' @param pooled logical; if \code{TRUE}, a pooled variance is used.
-#'   The default is \code{FALSE}.
-#' @return A \code{data.frame} of study data.
-#' \itemize{
-#' \item \code{y}: A numeric vector of the effect size estimates.
-#' \item \code{se}: A numeric vector of the within studies standard error estimates.
-#' }
-#' @examples
-#' require("flexmeta")
-#' data("clbp")
-#' dat <- convert_mean(clbp$n1, clbp$m1, clbp$s1, clbp$n2, clbp$m2, clbp$s2)
-#' print(dat)
-#' @export
 convert_mean <- function(n1, m1, s1, n2, m2, s2, pooled = FALSE, type=c("MD","SMD")) {
 
   # initial check

@@ -1,11 +1,3 @@
-#' Variance ratio statistics by leave-one-out analysis
-#'
-#' @param y A vector of the outcome measure estimates (e.g., MD, SMD, log OR, log HR)
-#' @param v A vector of the variance estimates of outcome measures
-#' @param B The number of bootstrap (default=2000)
-#' @return VRATIO, TAU2RATIO statistics and their 5th percentiles (list)
-#' @export
-
 VRATIO <- function(y, v, B=2000, alpha=0.05){
 
 	reml1 <- rma(yi=y,vi=v)

@@ -1,10 +1,3 @@
-#' Quantile computation from the bootstrap distribution
-#'
-#' @param x A vector of the bootstrap samples
-#' @param x0 A numeric that one wants to compute what quantile the point corresponds to
-#' @return qt (numeric)
-#' @export
-
 QT <- function(x,x0){
 
  x1 <- sort(c(x,x0))

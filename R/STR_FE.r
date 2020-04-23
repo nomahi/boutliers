@@ -1,11 +1,3 @@
-#' Studentized residual by leave-one-out analysis by the fixed-effect model
-#'
-#' @param y A vector of the outcome measure estimates (e.g., MD, SMD, log OR, log HR)
-#' @param v A vector of the variance estimates of outcome measures
-#' @param B The number of bootstrap (default=2000)
-#' @return Studentized residual, bootstrap 2.5th and 97.5the percentiles (list)
-#' @export
-
 STR_FE <- function(y, v, B=2000, alpha=0.95){
 
 	reml1 <- ML_FE(y,v)

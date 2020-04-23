@@ -1,11 +1,3 @@
-#' Likelihood ratio test using the mean-shifted model by the fixed-effect model
-#'
-#' @param y A vector of the outcome measure estimates (e.g., MD, SMD, log OR, log HR)
-#' @param v A vector of the variance estimates of outcome measures
-#' @param B The number of bootstrap (default=2000)
-#' @return LR statistic, bootstrap 95th percentile, bootstrap p-value (list)
-#' @export
-
 LRT_FE <- function(y, v, B=2000, alpha=0.05){
 
 	ML0 <- ML_FE(y,v)

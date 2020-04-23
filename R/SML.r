@@ -1,11 +1,3 @@
-#' Maximum likelihood estimation for the mean-shifted model (the mean of the 1st study can be shifted)
-#'
-#' @param y A vector of the outcome measure estimates (e.g., MD, SMD, log OR, log HR)
-#' @param v A vector of the variance estimates of outcome measures
-#' @param maxitr The maximum number of iterative compuation of the Newton-Raphson method.
-#' @return mu beta V0 Loglikelihood (list)
-#' @export
-
 SML <- function(y,v,maxitr=200){
 
 	N <- length(y)

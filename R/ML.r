@@ -1,11 +1,3 @@
-#' Maximum likelihood estimation for the DerSimonian-Laird random-effects model
-#'
-#' @param y A vector of the outcome measure estimates (e.g., MD, SMD, log OR, log HR)
-#' @param v A vector of the variance estimates of outcome measures
-#' @param maxitr The maximum number of iterative compuation of the Newton-Raphson method.
-#' @return mu V0 Loglikelihood (list)
-#' @export
-
 ML <- function(y,v,maxitr=200){
 
   N <- length(y)
