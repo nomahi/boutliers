@@ -1,7 +1,6 @@
 \docType{package}
 \name{boutliers-package}
 \alias{boutliers-package}
-\alias{boutliers}
 \title{The 'boutliers' package.}
 \description{
 A R package for implementing outlier detection and influence diagnostics for meta-analysis and clinical trial. Bootstrap distributions of the influence statistics are calculated, and the thresholds to determine outliers are clearly provided.
