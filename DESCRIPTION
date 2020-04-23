@@ -1,4 +1,4 @@
-Package: d-outliers
+Package: boutliers
 Type: Package
 Title: Outlier detection and influence diagnostics for meta-analysis and clinical trial
 Version: 1.0.0
