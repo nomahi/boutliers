@@ -27,13 +27,13 @@ The variance ratio influential statistics by leave-one-out analysis and their bo
 Calculating the variance ratio influential statistics by leave-one-out analysis and the percentiles of their bootstrap distributions.
 }
 \examples{
-data(PPI)
-attach(PPI)
+data(finasteride)
+attach(finasteride)
 
-dat <- convert_bin(d1, n1, d2, n2, type = "logOR")
+dat <- convert_mean(n1, m1, s1, n0, m0, s0, type="MD")
 print(dat)
 
 VRATIO(dat$y, dat$v)
 
-detach(PPI)
+detach(finasteride)
 }
