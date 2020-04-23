@@ -6,10 +6,10 @@ convert_mean <- function(n1, m1, s1, n2, m2, s2, pooled = FALSE, type=c("MD","SM
   
   # initial check
   util_check_nonneg(n1)
-  util_check_nonneg(m1)
+  #util_check_nonneg(m1)
   util_check_nonneg(s1)
   util_check_nonneg(n2)
-  util_check_nonneg(m2)
+  #util_check_nonneg(m2)
   util_check_nonneg(s2)
   util_check_num(pooled)
 
