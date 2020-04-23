@@ -2,7 +2,7 @@
 # boutliers package
 
 
-## Outlier detection and influence diagnostics for meta-analysis
+## Outlier detection and influence diagnostics for meta-analysis and clinical trial
 
 A R package for implementing outlier detection and influence diagnostics for meta-analysis and clinical trial:
 
