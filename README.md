@@ -1,10 +1,10 @@
 
-# metaoutliers package
+# d-outliers package
 
 
 ## Outlier detection and influence diagnostics for meta-analysis
 
-A R package for implementing outlier detection and influence diagnostics for meta-analysis:
+A R package for implementing outlier detection and influence diagnostics for meta-analysis and clinical trial:
 
 - Studentized residuals by leave-one-out analysis
 - Likelihood ratio test using a mean-shifted model
@@ -20,5 +20,7 @@ Bootstrap distributions of the influence statistics are calculated by simple cod
 ``` r
 # Or the the development version from GitHub:
 # install.packages("devtools")
-devtools::install_github("nomahi/metaoutliers")
+devtools::install_github("nomahi/d-outliers")
 ```
+
+Downloads: [please see the release page](https://github.com/nomahi/d-outliers/releases)
