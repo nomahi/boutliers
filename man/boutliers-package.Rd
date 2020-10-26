@@ -13,7 +13,7 @@ New York: Academic Press.
 Noma, H., Gosho, M., Ishii, R., Oba, K., and Furukawa, T. A. (2020+). 
 Outlier detection and influence diagnostics in network meta-analysis. 
 \emph{Research Synthesis Methods.}
-\url{https://onlinelibrary.wiley.com/doi/abs/10.1002/jrsm.1455}
+\url{https://doi.org/10.1002/jrsm.1455}
 
 Viechtbauer, W., and Cheung, M. W. (2010).
 Outlier and influence diagnostics for meta-analysis.
