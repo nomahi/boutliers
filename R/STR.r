@@ -41,6 +41,9 @@ STR <- function(y, v, B=2000, alpha=0.95){
 			psi.b[b,i] <- (y.b[i] - reml_i$mu) / sqrt(v_psi_i)
 
 		}
+		
+		print1 <- paste0("The ",b,"th bootstrap is completed.")
+		if(b%%100==0) print(print1)
 	
 	}
 		

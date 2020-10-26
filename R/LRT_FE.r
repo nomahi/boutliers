@@ -43,6 +43,9 @@ LRT_FE <- function(y, v, B=2000, alpha=0.05){
 
 		}
 	
+		print1 <- paste0("The ",b,"th bootstrap is completed.")
+		if(b%%100==0) print(print1)
+
 	}
 		
 	P <- Q <- numeric(n)	
