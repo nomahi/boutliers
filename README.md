@@ -24,3 +24,5 @@ devtools::install_github("nomahi/boutliers")
 ```
 
 Downloads: [please see the release page](https://github.com/nomahi/boutliers/releases)
+
+Also available at CRAN: https://cran.r-project.org/web/packages/boutliers/index.html
