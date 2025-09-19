@@ -18,9 +18,7 @@ Bootstrap distributions of the influence statistics are calculated by simple cod
 ## Installation
 
 ``` r
-# Or the the development version from GitHub:
-# install.packages("devtools")
-devtools::install_github("nomahi/boutliers")
+install.packages("boutliers")      # Install from CRAN
 ```
 
 Downloads: [please see the release page](https://github.com/nomahi/boutliers/releases)
